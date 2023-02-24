@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background: linear-gradient(68.15deg, #022940 16.62%, #D7D68F 85.61%);
 }
 
 .cabecalho {
@@ -30,7 +30,7 @@ body {
 }
 
 .cabecalho-menu-item {
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
   font-size: 18px
@@ -43,9 +43,12 @@ body {
 
 .conteudo-principal {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+
   align-items: center;
   justify-content: space-around;
+
 }
 
 .conteudo-principal-escrito {
@@ -55,27 +58,48 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-  font-family: 'Righteous', cursive;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
   font-size: 64px;
-  color: #FFF2E7;
+  color: #fdfdfd;
 }
 
 .conteudo-principal-escrito-subtitulo {
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #ECD6C4;
+  color: #fdfdfd;
 }
 
+.main-termo {
+  padding: 30px;
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.term {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  color: #fdfdfd;
+}
+
+.link {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 22px;
+  color: #fdfdfd;
+  font-weight: bold;
+
+}
+
+
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
+  background-color: #fdfdfd;
   width: 180px;
   height: 60px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #2F2325;
@@ -87,6 +111,10 @@ body {
 
 .conteudo-principal-imagem {
   height: 430px;
+  margin-top: 20px;
+  /* width: 60%;
+  max-width: 400px;
+  column-count: 2; */
 }
 
 .conteudo-secundario {
@@ -95,28 +123,30 @@ body {
   align-items: center;
   gap: 24px;
   margin-top: 48px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .conteudo-secundario-titulo {
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #CBE6FF;
   padding-top: 48px;
-  font-family: 'Righteous', cursive;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: #fdfdfd;
   margin-bottom: 16px;
 }
 
 .conteudo-secundario-paragrafo {
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #ECD6C4;
+  color: #fdfdfd;
 }
 
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+  border-top: 0.4px solid #fdfdfd;
 }
 
 .rodape-imagem {
